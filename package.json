@@ -1,6 +1,6 @@
 {
   "name": "@satelite/rollup-plugin-engineer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/lib.cjs.js",
   "module": "dist/lib.esm.js",
   "browser": "dist/lib.umd.js",
