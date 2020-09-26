@@ -9,8 +9,10 @@
 const engineerPlugin = function(options = {}) {
 	return {
 		name: 'satelite-engineer',
+		load() {
+			this.addWatchFile(path.resolve('./.engineer'))
+		},
 		buildStart() {
-			const engineer = require("@ericksatelite/engineer")
 			engineer()
 		}
 	  }
