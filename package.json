@@ -1,10 +1,12 @@
 {
   "name": "@satelite/rollup-plugin-engineer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/lib.cjs.js",
   "module": "dist/lib.esm.js",
   "browser": "dist/lib.umd.js",
-  "dependencies": {},
+  "dependencies": {
+    "@ericksatelite/engineer": "^1.2.3"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
