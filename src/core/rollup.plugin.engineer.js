@@ -1,3 +1,6 @@
+const path = require('path')
+const engineer = require('@ericksatelite/engineer')
+
 /**
  * 
  * @param {object} options - Default: {}
@@ -13,6 +16,7 @@ const engineerPlugin = function(options = {}) {
 			this.addWatchFile(path.resolve('./.engineer'))
 		},
 		buildStart() {
+			
 			engineer()
 		}
 	  }
