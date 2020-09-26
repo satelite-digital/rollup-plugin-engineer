@@ -1,5 +1,5 @@
-import greet from "./core/greet"
+import rollupPlugin from "./core/rollup.plugin.engineer"
 
 module.exports = {
-	greet
+	rollupPlugin
 }

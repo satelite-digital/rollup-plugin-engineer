@@ -1,5 +1,5 @@
 {
-  "name": "@ericksatelite/library-template",
+  "name": "@satelite/rollup-plugin-engineer",
   "version": "0.0.1",
   "main": "dist/lib.cjs.js",
   "module": "dist/lib.esm.js",
